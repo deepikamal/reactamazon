@@ -1,0 +1,32 @@
+.appcon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.con{
+    display: flex;
+   flex-direction: column;
+  
+   border: 1px solid black;
+   margin: 1px soild black;
+   
+   width: 400px;
+   height: 550px;
+}
+.title{
+   
+  
+}
+.imgall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 400px;
+height: 300px;
+}
+.desc{
+    font-size: 11px;
+}
