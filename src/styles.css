@@ -1,24 +1,59 @@
 .appcon{
     display: flex;
     flex-direction: row;
+    flex-direction: column;
    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
     
+    /* align-items: center; */
+    /* border: 1px solid black;
+    margin: 1px solid black; */
+    /* justify-content: space-around; */
 }
 .con{
     display: flex;
    flex-direction: column;
-  
    border: 1px solid black;
-   margin: 1px soild black;
-   
-   width: 400px;
-   height: 550px;
+  
+   margin: auto;
+      width: 300px;
+   height: 600px;
+}
+.btnclick{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
 }
 .title{
-   font-size: 14px;
+   font-size: 12px;
   
+}
+.procard{
+    display: flex;
+   /* flex-direction: column; */  flex-wrap: wrap;
+}
+.productde{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.procartdetails{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+button
+{
+    width: 70px;
 }
 .loader-con{
     display: flex;
@@ -28,18 +63,58 @@
 }
 .list{
     display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center;
-    width: 1000px;
+    
+ 
+    
 }
 .imgall{
     display: flex;
     justify-content: center;
     align-items: center;
-width: 400px;
+width: 300px;
 height: 300px;
+
 }
 .desc{
     font-size: 11px;
+}
+.vimgall{
+    width: 50px;
+    height: 50px;
+}
+.cart-button{
+    
+}
+.vcart-btn{
+position: relative
+}
+.vcart-details{
+    position:absolute;
+
+top: 30px;
+}
+.vcontainer{
+    background-color:whitesmoke;
+    width:250px;
+    height: 250px;
+
+}
+.plus-btn{
+    width: 15px;
+    background-color: gray;
+}
+.mins-btn{
+    width: 15px;
+    background-color: gray;
+}
+.qty-btn{
+    width: 15px;
+    background-color: gray;   
+}
+
+
+.conv{
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
 }
